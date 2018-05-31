@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C69365920C03D2B0033339C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69365820C03D2B0033339C /* AppDelegate.swift */; };
+		4C69365B20C03D2B0033339C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69365A20C03D2B0033339C /* ViewController.swift */; };
+		4C69365E20C03D2B0033339C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C69365C20C03D2B0033339C /* Main.storyboard */; };
+		4C69366020C03D2B0033339C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C69365F20C03D2B0033339C /* Assets.xcassets */; };
+		4C69366320C03D2B0033339C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C69366120C03D2B0033339C /* LaunchScreen.storyboard */; };
+		4C69366E20C03D2B0033339C /* Fortress_AnimalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69366D20C03D2B0033339C /* Fortress_AnimalsTests.swift */; };
+		4C69367920C03D2B0033339C /* Fortress_AnimalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69367820C03D2B0033339C /* Fortress_AnimalsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C69366A20C03D2B0033339C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C69364D20C03D2B0033339C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C69365420C03D2B0033339C;
+			remoteInfo = "Fortress Animals";
+		};
+		4C69367520C03D2B0033339C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C69364D20C03D2B0033339C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C69365420C03D2B0033339C;
+			remoteInfo = "Fortress Animals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C69365520C03D2B0033339C /* Fortress Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortress Animals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C69365820C03D2B0033339C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C69365A20C03D2B0033339C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C69365D20C03D2B0033339C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C69365F20C03D2B0033339C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C69366220C03D2B0033339C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C69366420C03D2B0033339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69366920C03D2B0033339C /* Fortress AnimalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortress AnimalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C69366D20C03D2B0033339C /* Fortress_AnimalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortress_AnimalsTests.swift; sourceTree = "<group>"; };
+		4C69366F20C03D2B0033339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69367420C03D2B0033339C /* Fortress AnimalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortress AnimalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C69367820C03D2B0033339C /* Fortress_AnimalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortress_AnimalsUITests.swift; sourceTree = "<group>"; };
+		4C69367A20C03D2B0033339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C69365220C03D2B0033339C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69366620C03D2B0033339C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69367120C03D2B0033339C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C69364C20C03D2B0033339C = {
+			isa = PBXGroup;
+			children = (
+				4C69365720C03D2B0033339C /* Fortress Animals */,
+				4C69366C20C03D2B0033339C /* Fortress AnimalsTests */,
+				4C69367720C03D2B0033339C /* Fortress AnimalsUITests */,
+				4C69365620C03D2B0033339C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C69365620C03D2B0033339C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C69365520C03D2B0033339C /* Fortress Animals.app */,
+				4C69366920C03D2B0033339C /* Fortress AnimalsTests.xctest */,
+				4C69367420C03D2B0033339C /* Fortress AnimalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C69365720C03D2B0033339C /* Fortress Animals */ = {
+			isa = PBXGroup;
+			children = (
+				4C69365820C03D2B0033339C /* AppDelegate.swift */,
+				4C69365A20C03D2B0033339C /* ViewController.swift */,
+				4C69365C20C03D2B0033339C /* Main.storyboard */,
+				4C69365F20C03D2B0033339C /* Assets.xcassets */,
+				4C69366120C03D2B0033339C /* LaunchScreen.storyboard */,
+				4C69366420C03D2B0033339C /* Info.plist */,
+			);
+			path = "Fortress Animals";
+			sourceTree = "<group>";
+		};
+		4C69366C20C03D2B0033339C /* Fortress AnimalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C69366D20C03D2B0033339C /* Fortress_AnimalsTests.swift */,
+				4C69366F20C03D2B0033339C /* Info.plist */,
+			);
+			path = "Fortress AnimalsTests";
+			sourceTree = "<group>";
+		};
+		4C69367720C03D2B0033339C /* Fortress AnimalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C69367820C03D2B0033339C /* Fortress_AnimalsUITests.swift */,
+				4C69367A20C03D2B0033339C /* Info.plist */,
+			);
+			path = "Fortress AnimalsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C69365420C03D2B0033339C /* Fortress Animals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69367D20C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress Animals" */;
+			buildPhases = (
+				4C69365120C03D2B0033339C /* Sources */,
+				4C69365220C03D2B0033339C /* Frameworks */,
+				4C69365320C03D2B0033339C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortress Animals";
+			productName = "Fortress Animals";
+			productReference = 4C69365520C03D2B0033339C /* Fortress Animals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C69366820C03D2B0033339C /* Fortress AnimalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69368020C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress AnimalsTests" */;
+			buildPhases = (
+				4C69366520C03D2B0033339C /* Sources */,
+				4C69366620C03D2B0033339C /* Frameworks */,
+				4C69366720C03D2B0033339C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C69366B20C03D2B0033339C /* PBXTargetDependency */,
+			);
+			name = "Fortress AnimalsTests";
+			productName = "Fortress AnimalsTests";
+			productReference = 4C69366920C03D2B0033339C /* Fortress AnimalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C69367320C03D2B0033339C /* Fortress AnimalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69368320C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress AnimalsUITests" */;
+			buildPhases = (
+				4C69367020C03D2B0033339C /* Sources */,
+				4C69367120C03D2B0033339C /* Frameworks */,
+				4C69367220C03D2B0033339C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C69367620C03D2B0033339C /* PBXTargetDependency */,
+			);
+			name = "Fortress AnimalsUITests";
+			productName = "Fortress AnimalsUITests";
+			productReference = 4C69367420C03D2B0033339C /* Fortress AnimalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C69364D20C03D2B0033339C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fortress Bismark";
+				TargetAttributes = {
+					4C69365420C03D2B0033339C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4C69366820C03D2B0033339C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C69365420C03D2B0033339C;
+					};
+					4C69367320C03D2B0033339C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C69365420C03D2B0033339C;
+					};
+				};
+			};
+			buildConfigurationList = 4C69365020C03D2B0033339C /* Build configuration list for PBXProject "Fortress Animals" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C69364C20C03D2B0033339C;
+			productRefGroup = 4C69365620C03D2B0033339C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C69365420C03D2B0033339C /* Fortress Animals */,
+				4C69366820C03D2B0033339C /* Fortress AnimalsTests */,
+				4C69367320C03D2B0033339C /* Fortress AnimalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C69365320C03D2B0033339C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69366320C03D2B0033339C /* LaunchScreen.storyboard in Resources */,
+				4C69366020C03D2B0033339C /* Assets.xcassets in Resources */,
+				4C69365E20C03D2B0033339C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69366720C03D2B0033339C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69367220C03D2B0033339C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C69365120C03D2B0033339C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69365B20C03D2B0033339C /* ViewController.swift in Sources */,
+				4C69365920C03D2B0033339C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69366520C03D2B0033339C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69366E20C03D2B0033339C /* Fortress_AnimalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69367020C03D2B0033339C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69367920C03D2B0033339C /* Fortress_AnimalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C69366B20C03D2B0033339C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C69365420C03D2B0033339C /* Fortress Animals */;
+			targetProxy = 4C69366A20C03D2B0033339C /* PBXContainerItemProxy */;
+		};
+		4C69367620C03D2B0033339C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C69365420C03D2B0033339C /* Fortress Animals */;
+			targetProxy = 4C69367520C03D2B0033339C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C69365C20C03D2B0033339C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C69365D20C03D2B0033339C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C69366120C03D2B0033339C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C69366220C03D2B0033339C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C69367B20C03D2B0033339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C69367C20C03D2B0033339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C69367E20C03D2B0033339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress Animals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-Animals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C69367F20C03D2B0033339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress Animals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-Animals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C69368120C03D2B0033339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress AnimalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-AnimalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortress Animals.app/Fortress Animals";
+			};
+			name = Debug;
+		};
+		4C69368220C03D2B0033339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress AnimalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-AnimalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortress Animals.app/Fortress Animals";
+			};
+			name = Release;
+		};
+		4C69368420C03D2B0033339C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress AnimalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-AnimalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortress Animals";
+			};
+			name = Debug;
+		};
+		4C69368520C03D2B0033339C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortress AnimalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.fortressbismark.Fortress-AnimalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortress Animals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C69365020C03D2B0033339C /* Build configuration list for PBXProject "Fortress Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69367B20C03D2B0033339C /* Debug */,
+				4C69367C20C03D2B0033339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C69367D20C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69367E20C03D2B0033339C /* Debug */,
+				4C69367F20C03D2B0033339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C69368020C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress AnimalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69368120C03D2B0033339C /* Debug */,
+				4C69368220C03D2B0033339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C69368320C03D2B0033339C /* Build configuration list for PBXNativeTarget "Fortress AnimalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69368420C03D2B0033339C /* Debug */,
+				4C69368520C03D2B0033339C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C69364D20C03D2B0033339C /* Project object */;
+}
