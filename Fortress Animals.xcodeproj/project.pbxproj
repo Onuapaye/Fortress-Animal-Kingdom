@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4C69365920C03D2B0033339C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69365820C03D2B0033339C /* AppDelegate.swift */; };
-		4C69365B20C03D2B0033339C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69365A20C03D2B0033339C /* ViewController.swift */; };
 		4C69365E20C03D2B0033339C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C69365C20C03D2B0033339C /* Main.storyboard */; };
 		4C69366020C03D2B0033339C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C69365F20C03D2B0033339C /* Assets.xcassets */; };
 		4C69366320C03D2B0033339C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C69366120C03D2B0033339C /* LaunchScreen.storyboard */; };
 		4C69366E20C03D2B0033339C /* Fortress_AnimalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69366D20C03D2B0033339C /* Fortress_AnimalsTests.swift */; };
 		4C69367920C03D2B0033339C /* Fortress_AnimalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69367820C03D2B0033339C /* Fortress_AnimalsUITests.swift */; };
+		4C69368720C040AE0033339C /* AnimalsClassFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69368620C040AE0033339C /* AnimalsClassFile.swift */; };
+		4C69368920C042D80033339C /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69368820C042D80033339C /* AnimalsTableViewController.swift */; };
+		4C69368B20C044260033339C /* AnimalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69368A20C044260033339C /* AnimalsTableViewCell.swift */; };
+		4C69368D20C04FA00033339C /* AnimalsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69368C20C04FA00033339C /* AnimalsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		4C69365520C03D2B0033339C /* Fortress Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortress Animals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C69365820C03D2B0033339C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C69365A20C03D2B0033339C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C69365D20C03D2B0033339C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C69365F20C03D2B0033339C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C69366220C03D2B0033339C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		4C69367420C03D2B0033339C /* Fortress AnimalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortress AnimalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C69367820C03D2B0033339C /* Fortress_AnimalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortress_AnimalsUITests.swift; sourceTree = "<group>"; };
 		4C69367A20C03D2B0033339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69368620C040AE0033339C /* AnimalsClassFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsClassFile.swift; sourceTree = "<group>"; };
+		4C69368820C042D80033339C /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
+		4C69368A20C044260033339C /* AnimalsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewCell.swift; sourceTree = "<group>"; };
+		4C69368C20C04FA00033339C /* AnimalsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				4C69365820C03D2B0033339C /* AppDelegate.swift */,
-				4C69365A20C03D2B0033339C /* ViewController.swift */,
 				4C69365C20C03D2B0033339C /* Main.storyboard */,
 				4C69365F20C03D2B0033339C /* Assets.xcassets */,
 				4C69366120C03D2B0033339C /* LaunchScreen.storyboard */,
 				4C69366420C03D2B0033339C /* Info.plist */,
+				4C69368620C040AE0033339C /* AnimalsClassFile.swift */,
+				4C69368820C042D80033339C /* AnimalsTableViewController.swift */,
+				4C69368A20C044260033339C /* AnimalsTableViewCell.swift */,
+				4C69368C20C04FA00033339C /* AnimalsDetailViewController.swift */,
 			);
 			path = "Fortress Animals";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C69365B20C03D2B0033339C /* ViewController.swift in Sources */,
+				4C69368D20C04FA00033339C /* AnimalsDetailViewController.swift in Sources */,
+				4C69368720C040AE0033339C /* AnimalsClassFile.swift in Sources */,
+				4C69368B20C044260033339C /* AnimalsTableViewCell.swift in Sources */,
 				4C69365920C03D2B0033339C /* AppDelegate.swift in Sources */,
+				4C69368920C042D80033339C /* AnimalsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
