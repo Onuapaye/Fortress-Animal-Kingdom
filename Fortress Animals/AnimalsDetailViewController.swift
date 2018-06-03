@@ -17,7 +17,8 @@ class AnimalsDetailViewController: UIViewController {
     @IBOutlet weak var animalLifeSpanDetail: UILabel!
     @IBOutlet weak var animalPhotoDetail: UIImageView!
     @IBOutlet weak var animalDescriptionDetail: UITextView!
-    @IBOutlet weak var animalReproductionDetail: UITextView!
+    //@IBOutlet weak var animalReproductionDetail: UITextView!
+    //@IBOutlet weak var animalReproductionDetailText: UITextView!
     
     var animalsClassInstance: AnimalClassFile?
     
@@ -27,11 +28,11 @@ class AnimalsDetailViewController: UIViewController {
         animalNameDetailLabel.text = animalsClassInstance?.animalName?.uppercased()
         animalClassDetail.text = "Class: " + (animalsClassInstance?.animalClass)!
         animalKingdomDetail.text = "Order: " + (animalsClassInstance?.animalOrder!)!
-        animalCodeDetail.text = "Code: " + (animalsClassInstance?.animalCode)!
+        
         animalLifeSpanDetail.text = "Life Span: " + (animalsClassInstance?.animalLifeSpan)!
         animalPhotoDetail.image = UIImage(named: (animalsClassInstance?.animalPhoto)!)
         animalDescriptionDetail.text = animalsClassInstance?.animalDescription
-        animalReproductionDetail.text = animalsClassInstance?.animalReproduction
+      
         
         // Do any additional setup after loading the view.
     }
